@@ -31,7 +31,7 @@
 	<bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close">
         <property name="driverClass" value="org.mariadb.jdbc.Driver" />
-        <property name="jdbcUrl" value="jdbc:mariadb://localhost:3306/student?useSSL=false&amp;characterEncoding=utf8&amp;serverTimezone=Asia/Seoul" />
+        <property name="jdbcUrl" value="jdbc:mariadb://localhost:3307/web_customer_tracker?useSSL=false&amp;characterEncoding=utf8&amp;serverTimezone=UTC" />
         <property name="user" value="root" />
         <property name="password" value="1234" /> 
 
