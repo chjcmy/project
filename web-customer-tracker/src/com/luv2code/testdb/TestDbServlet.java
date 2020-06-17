@@ -27,7 +27,7 @@ public class TestDbServlet extends HttpServlet {
 				String user = "root";
 				String pass = "1234";
 				
-				String jdbcUrl = "jdbc:mariadb://localhost:3307/web_customer_tracker?useSSL=false&serverTimezone=UTC";
+				String jdbcUrl = "jdbc:mariadb://58.229.144.46:3306/student?useSSL=false&serverTimezone=UTC";
 				String driver = "org.mariadb.jdbc.Driver";
 				
 				// get connection to database
