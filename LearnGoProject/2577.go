@@ -11,10 +11,10 @@ func main() {
 	out := bufio.NewWriter(os.Stdout)
 
 	a := 1
-	var b int
+
 	for i := 0; i < 3; i++ {
 		in.Scan()
-		b, _ = strconv.Atoi(in.Text())
+		b, _ := strconv.Atoi(in.Text())
 		a = a * b
 	}
 
