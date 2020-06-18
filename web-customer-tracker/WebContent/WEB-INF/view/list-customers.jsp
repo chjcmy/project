@@ -24,14 +24,21 @@
 	<div id="container">
 		<div id="content">
 		
-		<!-- put new button: add customer -->
-		
-		<input type="button" value = "Add Customer"
+		<p>
+		  
+		  <!-- put new button: add customer -->
+		  
+		  <input type="button" value = "Add Customer"
 				onclick="window.location.href='showFormForAdd'; returnfalse;"
 				class="add-button"
 		/>
-		
-		<!--  add out html table here -->
+		  
+		  </p>
+		<p>&nbsp;</p>
+		<p>
+		  <!--  add out html table here -->
+		  
+		  </p>
 		
 		<table>
 			<tr>
