@@ -11,6 +11,7 @@
     <!-- style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
 
 
     <!-- 파비콘 -->
@@ -24,7 +25,10 @@
     <link rel="icon" href="icon/favicon-128.png" sizes="128x128">
     <script src="https://kit.fontawesome.com/f4238cc675.js" crossorigin="anonymous"></script>
     <!-- 폰트 -->
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+
     <!-- HTLM5shiv ie6~8 -->
     <!--[if lt IE 9]> 
         <script src="js/html5shiv.min.js"></script>
@@ -53,9 +57,8 @@
             <div class="row">
                 <div class="header">
                     <div class="header_menu">
-                        <a href="#">java</a>
-                        <a href="#">go</a>
-                        <a href="#">kotlin</a>
+                        <a href="#">로그인</a>
+
                     </div>
                     <!-- //header_menu -->
                     <div class="header_tit">
@@ -81,7 +84,7 @@
                 <div class="nav">
                     <h2 class="ir_su">반응형 사이트 전체 메뉴</h2>
                     <div>
-                        <h3>HTML Reference</h3>
+                        <h3>JAVA</h3>
                         <ol>
                             <li><a href="#">HTML 태그(Tag)</a></li>
                             <li><a href="#">블록 요소/인라인 요소</a></li>
@@ -100,7 +103,7 @@
                         </ol>
                     </div>
                     <div>
-                        <h3>CSS Reference</h3>
+                        <h3>GO</h3>
                         <ol>
                             <li><a href="#">CSS 선택자</a></li>
                             <li><a href="#">CSS 단위</a></li>
@@ -119,7 +122,7 @@
                         </ol>
                     </div>
                     <div class="last">
-                        <h3>Webstandard</h3>
+                        <h3>KOTLIN</h3>
                         <ol>
                             <li><a href="#">웹 표준</a></li>
                             <li><a href="#">웹 접근성</a></li>
@@ -136,58 +139,189 @@
     </nav>
     <!-- nav -->
 
-
-    <article>
-        <h2>반응형 사이트 서브 타이틀</h2>
+    <article id="title">
+        <div class="container">
+            <div class="title">
+                <h2>"나는 우르곳이다"</h2>
+                <a href="#" class="btn">
+                    <i class="fas fa-chess-knight" aria-hidden="true"></i>
+                    <span class="ir_su">전체메뉴 보기</span>
+                </a>
+            </div>
+        </div>
     </article>
-    <main>
-        <section>
-            <h2>반응형 사이트 컨텐츠</h2>
-            <section>
-                <h3>반응형 사이트 왼쪽 컨텐츠</h3>
-                <article>
-                    <h4>반응형 사이트 왼쪽 컨텐츠1</h4>
-                </article>
-                <article>
-                    <h4>반응형 사이트 왼쪽 컨텐츠2</h4>
-                </article>
-                <article>
-                    <h4>반응형 사이트 왼쪽 컨텐츠3</h4>
-                </article>
-            </section>
-            <section>
-                <h3>반응형 사이트 가운데 컨텐츠</h3>
-                <article>
-                    <h4>반응형 사이트 가운데 컨텐츠1</h4>
-                </article>
-                <article>
-                    <h4>반응형 사이트 가운데 컨텐츠2</h4>
-                </article>
-                <article>
-                    <h4>반응형 사이트 가운데 컨텐츠3</h4>
-                </article>
-            </section>
-            <section>
-                <h3>반응형 사이트 오른쪽 컨텐츠</h3>
-                <article>
-                    <h4>반응형 사이트 오른쪽 컨텐츠1</h4>
-                </article>
-                <article>
-                    <h4>반응형 사이트 오른쪽 컨텐츠2</h4>
-                </article>
-                <article>
-                    <h4>반응형 사이트 오른쪽 컨텐츠3</h4>
-                </article>
-            </section>
-        </section>
-    </main>
-    <footer>
-        <h2>반응형 사이트 푸터</h2>
-    </footer>
+    <!-- //title -->
 
+    <main>
+        <section id="contents">
+            <div class="container">
+                <h2 class="ir_su">반응형 사이트 컨텐츠</h2>
+                <section id="cont_left">
+                    <!-- // -->
+                    <article class="column col1">
+                        <h4 class="col_tit">Menu</h4>
+                        <!-- 메뉴 -->
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">JAVA <i class="fab fa-java" aria-hidden="true"></i></a></li>
+                                <li><a href="#">GO <i class="fab fa-google" aria-hidden="true"></i></a></li>
+                                <li><a href="#">KOTLIN <i class="fab fa-google-play" aria-hidden="true"></i></a></li>
+                                <li><a href="#">HTML5 <i class="fab fa-html5" aria-hidden="true"></i></a></li>
+                                <li><a href="#">CSS3 <i class="fab fa-css3-alt" aria-hidden="true"></i></a></li>
+                                <li><a href="#">일상생활 <i class="fas fa-walking" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- //메뉴 -->
+                    </article>
+
+                    <!-- // -->
+                    <article class="column col2">
+                        <h4 class="col_tit">Notice</h4>
+                        <p class="col_desc">게시판영역의 한줄 효과와 두줄 효과 게시판입니다</p>
+                        <!-- 게시판 -->
+                        <div class="notice1">
+                            <h5>Notice1</h5>
+                            <ul>
+                                <li><a href="#">이줄은 한줄 효과입니다</a></li>
+                                <li><a href="#">이줄은 한줄 효과입니다</a></li>
+                                <li><a href="#">이줄은 한줄 효과입니다</a></li>
+                                <li><a href="#">이줄은 한줄 효과입니다</a></li>
+                            </ul>
+                            <a href="#" class="more" title="더 보기">More<i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- //게시판 -->
+                    </article>
+                    <!-- //col2 -->
+
+                    <article class="column col3">
+                        <h4 class="col_tit">Blog</h4>
+                        <p class="col_desc">해상도에 따라 이미지를 다르게 표현하는 방법입니다.</p>
+                        <!-- blog1-->
+                        <div class="blog1">
+                            <h5 class="ir_su">image1</h5>
+                            <figure>
+                                <img src="img/blog1_@1.jpg" class="img-normal" alt="normal image">
+                                <img src="img/blog1_@2.jpg" class="img-retina" alt="retina image" width="100%">
+                                <!--<img src="img/blog2_@1.jpg" srcset="img/blog2_@1.jpg 1x, img/blog2_@2.jpg 2x" alt="normal image"> -->
+                                <figcaption>반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다.</figcaption>
+                            </figure>
+                        </div>
+                        <!-- //blog1 -->
+                        <!-- blog2-->
+                        <div class="blog2">
+                            <h5 class="ir_su">image2</h5>
+                            <figure>
+                                <img src="img/blog2_@1.jpg" srcset="img/blog2_@1.jpg 1x, img/blog2_@2.jpg 2x" alt="normal image">
+                                <figcaption>반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다.</figcaption>
+                            </figure>
+                        </div>
+                        <!-- //blog2 -->
+                    </article>
+                    <!-- //col3 -->
+                </section>
+                <section id="cont_center">
+                    <h3 class="ir_su">반응형 사이트 가운데 컨텐츠</h3>
+                    <article class="column col4">
+                        <h4 class="col_tit">Slick Slider</h4>
+                        <p class="col_desc">slick.js를 이용한 이미지 슬라이드 효과입니다.</p>
+                        <!-- 이미지 슬라이드 -->
+                        <div class="slider">
+                            <div>
+                                <figure>
+                                    <img src="img/slider001.jpg" alt="이미지1">
+                                    <figcaption><em>Responsive Site1</em><span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드 입니다.</span></figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="img/slider001.jpg" alt="이미지2">
+                                    <figcaption><em>Responsive Site2</em><span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드 입니다.</span></figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="img/slider001.jpg" alt="이미지3">
+                                    <figcaption><em>Responsive Site3</em><span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드 입니다.</span></figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- //이미지 슬라이드 -->
+                    </article>
+                    <!-- //col4 -->
+                    <article class="column col5">
+                        <h4 class="col_tit">Title</h4>
+                        <p class="col_desc">이 곳은 설명 부분입니다.</p>
+                        <!-- -->
+
+                        <!-- // -->
+                    </article>
+                    <!-- //col5 -->
+                    <article class="column col6">
+                        <h4 class="col_tit">Title</h4>
+                        <p class="col_desc">이 곳은 설명 부분입니다.</p>
+                        <!-- -->
+
+                        <!-- // -->
+                    </article>
+                    <!-- //col6 -->
+                </section>
+                <section id="cont_right">
+                    <h3 class="ir_su">반응형 사이트 오른쪽 컨텐츠</h3>
+                    <article class="column col7">
+                        <h4 class="col_tit">Title</h4>
+                        <p class="col_desc">이 곳은 설명 부분입니다.</p>
+                        <!-- -->
+
+                        <!-- // -->
+                    </article>
+                    <!-- //col7 -->
+                    <article class="column col8">
+                        <h4 class="col_tit">Title</h4>
+                        <p class="col_desc">이 곳은 설명 부분입니다.</p>
+                        <!-- -->
+
+                        <!-- // -->
+                    </article>
+                    <!-- //col8 -->
+                    <article class="column col9">
+                        <h4 class="col_tit">Title</h4>
+                        <p class="col_desc">이 곳은 설명 부분입니다.</p>
+                        <!-- -->
+
+                        <!-- // -->
+                    </article>
+                    <!-- //col9 -->
+                </section>
+            </div>
+        </section>
+        <!-- //contents -->
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <h2>반응형 사이트 푸터</h2>
+        </div>
+    </footer>
     <!-- //footer -->
 
     <!-- JavaScript Libraries -->
     <script src="js/jquery.min_1.12.4.js"></script>
     <script src="js/modernizr-custom.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+         //이미지 슬라이더
+        $(".slider").slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        autoplay: false,
+                        }
+                }
+            ]
+        });
+    </script>
 </body></html>
