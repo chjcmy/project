@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringMavenProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringMavenProject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringMavenProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMavenProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.mariadb.jdbc:mariadb-java-client:2.5.4" />
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
