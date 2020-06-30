@@ -461,10 +461,10 @@
     font-size: 0; line-height: 0;
     display: block; width: 15px; height: 15px;
     cursor: pointer;
-    background: #5dbfeb;
+    background: #391b13;
     border-radius: 50%;
 }
-.slider .slick-dots li.slick-active button {background: #2b91c8;}
+.slider .slick-dots li.slick-active button {background: #9E8973;}
 .slider .slick-prev {
     position: absolute; left: 0; bottom: 0; z-index: 1000;
     width: 30px; height: 30px;
@@ -474,7 +474,7 @@
 }
 .slider .slick-prev::before {
     content:"\f104";
-    color: #5dbfeb;
+    color: #9E8973;
     text-indent: 0;
     position: absolute; left: 9px; top: 8px;
 }
@@ -486,7 +486,7 @@
 }
 .slider .slick-next::before { 
     content:"\f105";
-    color: #5dbfeb;
+    color: #9E8973;
     text-indent: 0;
     position: absolute; left: 11px; top: 8px;
 }
@@ -531,10 +531,14 @@
     .title .btn {
         right: 10px;
     }
+     .square a:nth-child(5n) {display: none;}
 }
 
 /* 화면 너비 0 ~ 1024px */
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+     .square a {width: 32.3333%;}
+    .square a:nth-child(5) {display: block;}
+}
 
 /* 화면 너비 0 ~ 760px */
 @media (max-width: 760px) {
