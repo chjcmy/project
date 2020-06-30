@@ -20,16 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191cc383-fa41-488d-a49e-ddfba8b3f5f2" name="Default Changelist" comment="go">
-      <change afterPath="$PROJECT_DIR$/1904.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/src/1904.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baekjoon/src/bj_1003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/META-INF/baekjoon.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/META-INF/baekjoon.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.deepsource.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_1003Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/out/production/baekjoon/_1003Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../baekjoon/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekjoon/src/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/html5/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/../html/html5/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-reflect-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-reflect.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-jdk7-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-jdk7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-jdk8-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-jdk8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-test-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-test.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

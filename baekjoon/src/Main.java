@@ -3,19 +3,25 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-    static int cache[] = new int[1100000];
+
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
+        long[] cache = new long[101];
         cache[1] = 1;
-        cache[2] = 2;
-        for (int i = 3; i < 1100000; i++) {
-            cache[i] = (cache[i - 1] + cache[i - 2]) % 15746;
+        cache[2] = 1;
+        cache[3] = 1;
+        cache[4] = 2;
+        cache[5] = 2;
+
+        for (int i = 6; i < 101; i++) {
+            cache[i] = cache[i-1] + cache[i-5];
         }
-        System.out.println(cache[n]);
+
+        for (int i = 0; i < n; i++) {
+            int a = Integer.parseInt(br.readLine());
+            System.out.println(cache[a]);
+        }
     }
 }
-
-
-

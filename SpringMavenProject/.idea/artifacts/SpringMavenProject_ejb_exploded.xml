@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="SpringMavenProject:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringMavenProject_ejb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringMavenProject/ejb/EJB" />
+      <element id="javaee-facet-classes" facet="SpringMavenProject/ejb/EJB" />
+    </root>
+  </artifact>
+</component>
