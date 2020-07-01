@@ -21,7 +21,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 	
 	
 	
-	
 	@Override
 	public List<Customer> getCustomers() {
 		
