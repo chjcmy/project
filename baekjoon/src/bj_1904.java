@@ -9,6 +9,7 @@ public class bj_1904 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
+
         cache[1] = 1;
         cache[2] = 2;
         for (int i = 3; i < 1100000; i++) {
