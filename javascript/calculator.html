@@ -72,11 +72,8 @@
 <script >
 
     function add(char) {
-        var display = document.getElementById('display'); // 우리가 식을 입력할 input 태그를 불러옵니다.
-        // display.value는 input 태그 안에 들어 있는 값을 의미합니다.
+        var display = document.getElementById('display');
         display.value = display.value + char;
-        // display.value += char; 로 쓸 수도 있습니다.
-        // input 태그의 값 뒤에 char 문자를 추가해 주는 역할을 합니다.
     }
     function calculate() {
         var display = document.getElementById('display');
